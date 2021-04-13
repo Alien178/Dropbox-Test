@@ -27,7 +27,7 @@ def main():
     fileFrom = str(input("Enter the Folder Path to Transfer:\n"))
     fileTo = input("Enter the Full Path to Upload to Dropbox:\n")
 
-    transferData.upload_file(fileFrom, fileTo)
+    transferData.uploadFiles(fileFrom, fileTo)
     print("The File has been Moved!!!")
 
 main()
